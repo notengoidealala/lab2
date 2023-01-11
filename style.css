@@ -1,19 +1,27 @@
 .Intro {
   text-align: center;
   margin: 10px;
+  font-family: monospace;
 }
-#TituloPerfilProfesional {
-  margin-bottom: 3px;
+#Intro {
+    border-style: ridge;
+    border-color: tomato;
 }
 #TextoPerfilProfesional {
-  margin-top: 3px;
   text-align: justify;
 }
-#Escuela {
+.Lugar {
   font-weight: bold;
   letter-spacing: .1rem;
 }
-#FechaEducacion {
+.Fecha {
   color: red;
   font-style: italic;
+}
+.Titulo {
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+#Lista1 {
+  list-style-type: "> ";
 }
